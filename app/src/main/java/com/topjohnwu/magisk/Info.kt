@@ -15,6 +15,7 @@ object Info {
     var keepVerity = false
     var keepEnc = false
     var recovery = false
+    var systemMode = false
 
     fun loadMagiskInfo() {
         runCatching {
