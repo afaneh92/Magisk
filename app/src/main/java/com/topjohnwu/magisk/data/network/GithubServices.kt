@@ -11,7 +11,7 @@ import retrofit2.http.*
 
 interface GithubRawServices {
 
-    //region topjohnwu/magisk_files
+    //region mohammad92/magisk_files
 
     @GET("$MAGISK_FILES/master/stable.json")
     fun fetchStableUpdate(): Single<UpdateInfo>
@@ -63,8 +63,8 @@ interface GithubRawServices {
         private const val FILE = "file"
 
 
-        private const val MAGISK_FILES = "topjohnwu/magisk_files"
-        private const val MAGISK_MASTER = "topjohnwu/Magisk/master"
+        private const val MAGISK_FILES = "mohammad92/magisk_files"
+        private const val MAGISK_MASTER = "mohammad92/Magisk/master"
         private const val MAGISK_MODULES = "Magisk-Modules-Repo"
     }
 
